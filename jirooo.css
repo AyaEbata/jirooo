@@ -1,0 +1,58 @@
+body {
+	background-color: yellow;
+}
+
+.title {
+	text-align: center;
+	color: red;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.subtitle {
+	text-align: center;
+	color: red;
+}
+
+.question {
+	display: table;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+}
+
+.kuuhaku {
+	margin-left: 30px;
+}
+
+select {
+	position: absolute;
+	left: 60%;
+}
+
+.ryou {
+	position: relative;
+	bottom: 30%;
+}
+
+.namu {
+	position: relative;
+	top: 5px;
+	margin-left: 35%;
+}
+
+#jumon1 {
+	text-align: center;
+	position: relative;
+	top: 60px;
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+#jumon2 {
+	text-align: center;
+	position: relative;
+	top: 70px;
+	font-size: 45px;
+	font-weight: bolder;
+}

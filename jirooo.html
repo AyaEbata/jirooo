@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="jirooo.css">
+		<script type="text/javascript" src="jirooo.js"></script>
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>二郎の呪文</title>
+	</head>
+	<body>
+		<div class="title">二郎の呪文</div>
+		<div class="subtitle">ラーメン二郎初心者のためのサイト</div>
+		<div class="question">
+			<form name="selectForm">
+				<p>性別
+					<span class="kuuhaku">
+						<input type="radio" name="seibetu" value="女" onChange="ookisa()">女 <input type="radio" name="seibetu" value="男" style="margin-left: 10px;" onChange="ookisa()">男<br />
+					</span>
+				</p>
+				<p>行きたい店舗
+					<select name="tenpo" onChange="select()">
+						<option value="#">--選択してね--</option>
+						<option value="本店">三田本店</option>
+						<option value="スモジ">相模大野店</option>
+						<option value="新代田">環七新代田店</option>
+					</select>
+				</p>
+				<p>普通のラーメン屋さんでの量<br />
+					<select name="ryou" class="ryou"></select>
+				</p>
+				<p>ニンニク
+					<select name="ninniku"></select>
+				</p>
+				<p>野菜
+					<select name="yasai"></select>
+				</p>
+				<p>背脂
+					<select name="abura"></select>
+				</p>
+				<p>味の濃さ
+					<select name="karame"></select>
+				</p>
+				<input type="button" onClick="namunamu()" class="namu" value="呪文を唱える">
+			</form>
+		</div>
+		<div id="jumon1"></div>
+		<div id="jumon2"></div>
+	</body>
+</html> 
